@@ -4,11 +4,16 @@ function Fold4() {
   return (
     <div className="bg-white">
       <div className="max-w-[70vw] mx-auto py-8">
-        <div className="flex flex-col gap-4 text-center items-center m-auto max-w-[40vw]">
+        <div className="flex flex-col gap-4 text-center items-center m-auto max-w-[50vw] pb-10">
           <p className="text-[#a0c717] text-sm font-bold">SMARTER JOINT FOOD</p>
-          <p className="text-2xl text-[#2c2f55] font-extrabold">
-            The Only Complete Joint Nutrition Supplement
-          </p>
+          <div className="flex flex-col">
+            <p className="text-2xl text-[#2c2f55] font-extrabold">
+              The Only Complete
+            </p>
+            <p className="text-2xl text-[#2c2f55] font-extrabold">
+              Joint Nutrition Supplement
+            </p>
+          </div>
           <p className="text-sm ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem
             sem, mollis sed viverra id, cursus at dolor. Maecenas ac semper sem,

@@ -36,8 +36,6 @@ function Fold3() {
               in. Suspendisse ex libero,
             </p>
           </div>
-
-          {/* Image Section */}
           <div className="lg:w-1/2 relative flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0 bg-green-500 rounded-xl transform -skew-y-6"></div>
             <img
