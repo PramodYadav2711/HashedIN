@@ -6,3 +6,16 @@
   clip-path: polygon(0% 22.5%, 100% 38.25%, 100% 100%, 0% 82.75%);
   border-radius: 40px 40px 40px 40px;
 }
+
+.shape::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 3.8rem;
+  border: 1px solid rgb(74 222 128);
+  position: absolute;
+  top: -35px;
+  left: -35px;
+}
