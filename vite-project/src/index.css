@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fold3-polygon {
+  clip-path: polygon(0% 22.5%, 100% 38.25%, 100% 100%, 0% 82.75%);
+  border-radius: 40px 40px 40px 40px;
+}
