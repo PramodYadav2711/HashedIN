@@ -1,11 +1,30 @@
+/* eslint-disable react/no-unescaped-entities */
+import Button from '../Components/Button';
+
 function Fold2() {
+  const image = 'https://placehold.co/400';
   return (
     <div className="bg-[#2c2f55]">
       <div className=" grid grid-cols-2 max-w-[80vw] mx-auto  text-white py-12 px-6">
-        <div>Hello</div>
+        <div>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="w-full h-full flex items-center justify-center">
+              <img src={image} alt="Stretching" className="w-3/4" />
+            </div>
+            <div className="w-full h-full flex items-center justify-center">
+              <img src={image} alt="Running" className="w-3/4" />
+            </div>
+            <div className="w-full h-full flex items-center justify-center">
+              <img src={image} alt="Biking" className="w-3/4" />
+            </div>
+            <div className="w-full h-full flex items-center justify-center">
+              <img src={image} alt="Group Exercise" className="w-3/4" />
+            </div>
+          </div>
+        </div>
         <div>
           <h1 className="text-4xl font-bold leading-tight">
-            Doctors' Secret to Living Ache-Free and Mobile for Life...
+            Doctor's Secret to Living Ache-Free and Mobile for Life...
           </h1>
           <h4 className="text-xl font-semibold text-[#a0c717] mt-4">
             FEED YOUR JOINTS DAILY!
@@ -18,9 +37,7 @@ function Fold2() {
             nisi arcu, tristique dictum sollicitudin vel, facilisis at urna.
             Cras a vulputate risus. Nam venenatis.
           </p>
-          <button className="mt-6 bg-[#a0c717] text-[#2c2f55] font-bold py-3 px-6 rounded-full hover:bg-[#91b515] transition duration-300">
-            Buy Now
-          </button>
+          <Button>Buy Now</Button>
         </div>
       </div>
     </div>

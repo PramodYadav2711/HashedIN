@@ -2,7 +2,11 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      clipPath: {
+        'doctor-polygon': 'polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)',
+      },
+    },
   },
   plugins: [],
 };

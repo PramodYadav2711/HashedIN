@@ -4,7 +4,7 @@ import { GiCrossedBones } from 'react-icons/gi';
 function Fold1() {
   return (
     <div className="grid grid-cols-2 max-w-[80vw] m-auto">
-      <div className="flex flex-col gap-7 pt-16">
+      <div className="flex flex-col gap-7 pt-16 pb-12">
         <h1 className="font-extrabold text-4xl max-w-[70%]">
           Clinically-proven joint nutrition
         </h1>
@@ -29,7 +29,7 @@ function Fold1() {
             <p>PROMOTES JOINT FLEXIBILITY</p>
           </div>
         </div>
-        <div>
+        <div className="flex gap-4">
           <Button variant="primary">BUY NOW</Button>
           <Button variant="secondary">LEARN MORE &#11167;</Button>
         </div>
