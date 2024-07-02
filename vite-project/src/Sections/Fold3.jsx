@@ -7,7 +7,7 @@ function Fold3() {
           <div className="lg:w-1/2 p-10 flex flex-col justify-center">
             <h2 className="text-2xl text-[#2c2f55] mb-4">
               Joint surgeon, Dr. John Hahn believes he has discovered the
-              secret. And he’s got
+              secret. And he's got
               <span className="font-bold ">
                 {' '}
                 hundreds of thousands of followers
@@ -36,12 +36,14 @@ function Fold3() {
               in. Suspendisse ex libero,
             </p>
           </div>
+
           {/* Image Section */}
-          <div className="lg:w-1/2 relative bg-green-100 flex items-center justify-center">
+          <div className="lg:w-1/2 relative flex items-center justify-center overflow-hidden">
+            <div className="absolute inset-0 bg-green-500 rounded-xl transform -skew-y-6"></div>
             <img
-              src={'srcassetspexels-kindelmedia-7863089.jpg'}
+              src="src/assets/doctor.png"
               alt="Dr. John Hahn"
-              className="fold3-polygon absolute inset-0 w-full h-full object-cover opacity-50 clipPath-doctor-polygon"
+              className="relative z-10 w-2/3 mx-auto"
             />
             <div className="relative z-10 p-10 text-white text-center">
               <p className="italic mb-4">

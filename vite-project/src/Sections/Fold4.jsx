@@ -3,11 +3,13 @@ import Showcase from '../Components/Showcase';
 function Fold4() {
   return (
     <div className="bg-white">
-      <div className="max-w-[70vw] mx-auto ">
-        <div className="flex flex-col gap-4 text-center">
-          <p>SMARTER JOINT FOOD</p>
-          <p>The Only Complete Joint Nutrition Supplement</p>
-          <p>
+      <div className="max-w-[70vw] mx-auto py-8">
+        <div className="flex flex-col gap-4 text-center items-center m-auto max-w-[40vw]">
+          <p className="text-[#a0c717] text-sm font-bold">SMARTER JOINT FOOD</p>
+          <p className="text-2xl text-[#2c2f55] font-extrabold">
+            The Only Complete Joint Nutrition Supplement
+          </p>
+          <p className="text-sm ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem
             sem, mollis sed viverra id, cursus at dolor. Maecenas ac semper sem,
             in lobortis est. Cras pharetra vitae tellus quis commodo. Phasellus
@@ -16,7 +18,7 @@ function Fold4() {
           </p>
         </div>
         <div>
-          <div className="grid grid-cols-3 grid-rows-3 gap-12">
+          <div className="grid grid-cols-3  gap-x-12 gap-y-6">
             <div>
               <Showcase
                 heading={'WHOLE COLLAGEN'}
@@ -57,8 +59,8 @@ function Fold4() {
                 }
               />
             </div>
-            <div className="row-span-2 row-start-2">
-              <img src="/src/assets/bottle.webp" />
+            <div className="row-span-2 row-start-2 flex items-center justify-center">
+              <img src="/src/assets/bottle.png" className="h-96" />
             </div>
             <div className="row-start-3">
               <Showcase
