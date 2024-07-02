@@ -7,7 +7,19 @@
   border-radius: 40px 40px 40px 40px;
 }
 
-.shape::after {
+.shape {
+  background-image: linear-gradient(
+      0deg,
+      rgb(74, 222, 128, 0.6),
+      rgb(74, 222, 128 , 0.6)
+    ),
+    url('./assets/play.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+}
+
+.shape::before {
   content: '';
   display: block;
   height: 100%;
@@ -18,4 +30,5 @@
   position: absolute;
   top: -35px;
   left: -35px;
+  border-bottom: none;
 }

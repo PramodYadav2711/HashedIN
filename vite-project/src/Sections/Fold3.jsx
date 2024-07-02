@@ -48,7 +48,26 @@ function Fold3() {
               <p>DPM, ND, America’s Joint Doctor</p>
             </div>
           </div> */}
-          <div className='shape h-96 w-[50vw] bg-green-400 rounded-[3.5rem] skew-y-6 absolute -right-40 top-20'></div>
+          <div className='shape h-96 w-[50vw]  rounded-[3.5rem] skew-y-6 absolute -right-40 top-20'>
+            <img
+              src='src/assets/doctor.png'
+              alt='Dr. John Hahn'
+              className='absolute h-[20rem] mx-auto bottom-0'
+            />
+            <div>
+              <p className='text-right w-44 absolute left-[35%] top-[20%] leading-4 text-sm text-gray-700 -skew-y-6'>
+                Lorem ipsum dolor, sit amet csectetur aaspisicing elit. Autm opo
+                dicta raone ipsum nemo aspernatur obcaecati iure.
+              </p>
+
+              <p className='text-right w-44 absolute left-[35%] top-[55%] leading-4 text-sm font-semibold text-gray-800 -skew-y-6'>
+                Dr. John Hahn <br />
+                DPM, ND, America’s
+                <br />
+                Joint Doctor
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
