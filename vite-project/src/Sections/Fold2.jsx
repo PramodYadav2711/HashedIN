@@ -5,20 +5,36 @@ function Fold2() {
   const image = 'https://placehold.co/400';
   return (
     <div className="bg-[#2c2f55]">
-      <div className=" grid grid-cols-2 max-w-[80vw] mx-auto  text-white py-12 px-6">
+      <div className=" grid grid-cols-2 gap-10 max-w-[80vw] mx-auto  text-white py-12 px-6">
         <div>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="w-full h-full flex items-center justify-center">
-              <img src={image} alt="Stretching" className="w-3/4" />
+          <div className="grid grid-cols-11 grid-rows-10 gap-0">
+            <div className="col-span-4 row-span-5 col-start-2 relative ">
+              <img
+                src="https://images.pexels.com/photos/15035577/pexels-photo-15035577/free-photo-of-man-running-in-park.jpeg?auto=compress&cs=tinysrgb&w=600"
+                className="aspect-square rounded-xl filter grayscale"
+              />
+              <div className="absolute inset-0 bg-[#2c2f55] opacity-60"></div>
             </div>
-            <div className="w-full h-full flex items-center justify-center">
-              <img src={image} alt="Running" className="w-3/4" />
+            <div className="col-span-5 row-span-6 col-start-7 relative">
+              <img
+                src="https://images.pexels.com/photos/12031390/pexels-photo-12031390.jpeg?auto=compress&cs=tinysrgb&w=600"
+                className="aspect-square rounded-xl filter grayscale"
+              />
+              <div className="absolute inset-0 bg-[#2c2f55] opacity-60"></div>
             </div>
-            <div className="w-full h-full flex items-center justify-center">
-              <img src={image} alt="Biking" className="w-3/4" />
+            <div className="col-span-4 row-span-5 row-start-6 relative">
+              <img
+                src="https://images.pexels.com/photos/6399679/pexels-photo-6399679.jpeg?auto=compress&cs=tinysrgb&w=600"
+                className="aspect-square rounded-xl filter grayscale"
+              />
+              <div className="absolute inset-0 bg-[#2c2f55] opacity-60"></div>
             </div>
-            <div className="w-full h-full flex items-center justify-center">
-              <img src={image} alt="Group Exercise" className="w-3/4" />
+            <div className="col-span-4 row-span-4 col-start-6 row-start-7 relative">
+              <img
+                src="https://images.pexels.com/photos/2381616/pexels-photo-2381616.jpeg?auto=compress&cs=tinysrgb&w=600"
+                className="aspect-square rounded-xl filter grayscale"
+              />
+              <div className="absolute inset-0 bg-[#2c2f55] opacity-60"></div>
             </div>
           </div>
         </div>
@@ -37,7 +53,9 @@ function Fold2() {
             nisi arcu, tristique dictum sollicitudin vel, facilisis at urna.
             Cras a vulputate risus. Nam venenatis.
           </p>
-          <Button>Buy Now</Button>
+          <div className="py-5">
+            <Button>Buy Now</Button>
+          </div>
         </div>
       </div>
     </div>
