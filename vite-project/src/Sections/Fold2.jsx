@@ -2,10 +2,9 @@
 import Button from '../Components/Button';
 
 function Fold2() {
-  const image = 'https://placehold.co/400';
   return (
     <div className="bg-[#2c2f55]">
-      <div className=" grid grid-cols-2 gap-10 max-w-[80vw] mx-auto  text-white py-12 px-6">
+      <div className=" grid grid-cols-2 gap-10 max-w-[80vw] mx-auto text-white py-12 px-6 max-md:grid-cols-1">
         <div>
           <div className="grid grid-cols-11 grid-rows-10 gap-0">
             <div className="col-span-4 row-span-5 col-start-2 relative ">

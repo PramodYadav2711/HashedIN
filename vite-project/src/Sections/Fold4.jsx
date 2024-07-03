@@ -4,7 +4,7 @@ function Fold4() {
   return (
     <div className="bg-white">
       <div className="max-w-[70vw] mx-auto py-8">
-        <div className="flex flex-col gap-4 text-center items-center m-auto max-w-[50vw] pb-10">
+        <div className="flex flex-col gap-4 text-center items-center m-auto max-w-[50vw] max-md:max-w-[90vw] pb-10">
           <p className="text-[#a0c717] text-sm font-bold">SMARTER JOINT FOOD</p>
           <div className="flex flex-col">
             <p className="text-2xl text-[#2c2f55] font-extrabold">
@@ -23,7 +23,7 @@ function Fold4() {
           </p>
         </div>
         <div>
-          <div className="grid grid-cols-3  gap-x-12 gap-y-6">
+          <div className="grid grid-cols-3 gap-x-12 gap-y-6 max-md:grid-cols-2">
             <div>
               <Showcase
                 heading={'WHOLE COLLAGEN'}
@@ -48,7 +48,7 @@ function Fold4() {
                 }
               />
             </div>
-            <div className="row-start-2">
+            <div className="">
               <Showcase
                 heading={'TURMERIC'}
                 content={
@@ -56,7 +56,7 @@ function Fold4() {
                 }
               />
             </div>
-            <div className="row-start-2">
+            <div className="">
               <Showcase
                 heading={'BROMELAIN'}
                 content={
@@ -64,10 +64,10 @@ function Fold4() {
                 }
               />
             </div>
-            <div className="row-span-2 row-start-2 flex items-center justify-center">
+            <div className="row-span-2  flex items-center justify-center">
               <img src="/src/assets/bottle.png" className="h-96" />
             </div>
-            <div className="row-start-3">
+            <div className="">
               <Showcase
                 heading={'CMO'}
                 content={
@@ -75,7 +75,7 @@ function Fold4() {
                 }
               />
             </div>
-            <div className="row-start-3">
+            <div className="">
               <Showcase
                 heading={'LIPASE'}
                 content={

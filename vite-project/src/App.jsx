@@ -8,7 +8,7 @@ import Header from './Sections/Header';
 
 function App() {
   return (
-    <div className="bg-slate-600">
+    <div>
       <Header />
       <Fold1 />
       <Fold2 />
